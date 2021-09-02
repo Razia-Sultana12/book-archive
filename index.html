@@ -14,20 +14,15 @@
 </head>
 <body class="m-5">
     <h1 class="text-success my-3 text-center">Book's Gallery</h1>
+             <!-- Search Box -->
     <div class="input-group mb-3 w-50 mx-auto">
         <input id="search-field" type="text" class="form-control" placeholder="search your books here" aria-label="Recipient's username" aria-describedby="button-addon2">
         <button onclick="searchBooks()" class="btn btn-outline-secondary bg-success text-white" type="button" id="button-search">Search</button>
       </div>
-      <!-- Load Spinner -->
-        <div id="spinner" class="text-center">
-            <div class="spinner-border text-success" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-          </div>
         <!-- found total data -->
       <div>
           <h3 class="text-center text-secondary"><span id="found-data"></span> </h3>
-      </div>
+       </div>
        <!-- books search result -->
        <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
      </div>

@@ -1,3 +1,4 @@
+//Search result
 const searchBooks = () => {
     const searchField = document.getElementById('search-field');
     searchText = searchField.value;
